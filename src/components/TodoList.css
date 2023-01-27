@@ -1,0 +1,24 @@
+.todos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: flex;
+    width: 95%;
+    position: relative;
+    align-items: center;
+}
+
+
+@media (max-width: 700px) {
+    .input {
+        width: 95%;
+    }
+
+    .todos {
+        width: 95%;
+    }
+}
